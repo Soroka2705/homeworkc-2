@@ -28,4 +28,13 @@ int dayNumber = Convert.ToInt32(Console.ReadLine());
 return dayNumber;
 */
 
+//Задача 13: Напишите программу, которая выводит третью цифру заданного числа или сообщает, что третьей цифры нет.
+
+Console.WriteLine("task13");
+
+Console.Write("enter number: ");
+int randNumber = Convert.ToInt32(Console.ReadLine());
+string randNumberText = Convert.ToString(randNumber);
+
+if (randNumberText.Length > 2)
 
